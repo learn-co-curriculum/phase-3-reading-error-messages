@@ -1,6 +1,7 @@
 ---
 tags: introduction, error messages, lecture
 language: ruby
+type: video, lab
 ---
 
 # Ruby Lecture: Introduction - Reading Error Messages
