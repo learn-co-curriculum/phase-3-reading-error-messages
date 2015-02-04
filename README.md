@@ -5,6 +5,15 @@ language: ruby
 
 # Ruby Lecture: Introduction - Reading Error Messages
 
+[MP4](http://flatiron-videos.s3.amazonaws.com/ironboard/ruby/ruby-lecture-reading-error-messages/ruby-lecture-reading-error-messages.mp4)
+
+<video controls width="100%">
+  <source src="http://flatiron-videos.s3.amazonaws.com/ironboard/ruby/ruby-lecture-reading-error-messages/ruby-lecture-reading-error-messages.mp4" type="video/mp4" >
+    Your browser does not support the video tag. We recommend using Chrome
+</video>
+
+## Summary
+
 Error messages have 3 parts:
 
 ```
