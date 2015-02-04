@@ -1,5 +1,5 @@
 ---
-tags: introduction, error messages, WIP, lecture
+tags: introduction, error messages, lecture
 language: ruby
 ---
 
@@ -11,6 +11,12 @@ language: ruby
   <source src="http://flatiron-videos.s3.amazonaws.com/ironboard/ruby/ruby-lecture-reading-error-messages/ruby-lecture-reading-error-messages.mp4" type="video/mp4" >
     Your browser does not support the video tag. We recommend using Chrome
 </video>
+
+## Lab
+
+Fork and clone this lab. Fix the errors in all the files in libs and make sure your test suite is passing by running `rspec`.
+
+Commit your working code and create a pull request.
 
 ## Summary
 
