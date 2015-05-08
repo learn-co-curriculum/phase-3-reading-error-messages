@@ -10,16 +10,20 @@ type: video, lab
 
 <video controls width="100%">
   <source src="http://flatiron-videos.s3.amazonaws.com/ironboard/ruby/ruby-lecture-reading-error-messages/ruby-lecture-reading-error-messages.mp4" type="video/mp4" >
-    Your browser does not support the video tag. We recommend using Chrome
+    This video is best enjoyed on Learn.co.
 </video>
 
 ## Lab
 
-Fork and clone this lab. Fix the errors in all the files in libs and make sure your test suite is passing by running `rspec`.
+Fork and clone this lab. Fix the errors in all the files in libs and make sure your test suite is passing by running `learn`.
 
 Commit your working code and create a pull request.
 
 ## Summary
+
+Errors in programs are totally normal. In movies and stuff it seems like it's all choreographed to techno and perfect, but in real life, it's mostly debugging and fixing errors.
+
+<iframe src="https://vine.co/v/hPXTA6l9AqQ/embed/simple" width="600" height="600" frameborder="0"></iframe><script src="https://platform.vine.co/static/scripts/embed.js"></script>
 
 Error messages have 3 parts:
 
@@ -57,6 +61,6 @@ This is a [Ruby Error Type](http://www.ruby-doc.org/core-2.2.0/Exception.html)
 
 You've solved games of Clue with less information. This is my favorite part of programming, debugging, fixing errors. It's like you're a detective solving a crime. The only bad thing is that more often than not, you're also the criminal that caused the error in the first place.
 
-Errors are clues, reading them is the interpret telling you what to do to fix the program and move on.
+Errors are clues, reading them is the interpreter telling you what to do to fix the program and move on.
 
 Have fun!
