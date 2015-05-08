@@ -13,17 +13,31 @@ type: video, lab
     This video is best enjoyed on Learn.co.
 </video>
 
+## Objectives
+
+1. Running ruby programs.
+2. Reading error messages.
+3. Fixing common errors.
+4. Running the `learn` command.
+5. Submitting a lab to Learn.
+
 ## Lab
 
-Fork and clone this lab. Fix the errors in all the files in libs and make sure your test suite is passing by running `learn`.
+Fork and clone this lab. 
 
-Commit your working code and create a pull request.
+Run each of the files in the `lib` directory using the `ruby` command.
 
-## Summary
+From the directory you cloned this lab, try: `ruby lib/a_division_by_zero_error.rb` to run that program. You should get output about an error in the program. Read the error message and open that file in a text editor and see if you can fix the error. When the error is fixed and you run the file via `ruby`, you'll simply see not output at all, no errors or anything. Confirm this by running the `learn` command and seeing that you have a passing test and 3 remaining failures.
 
-Errors in programs are totally normal. In movies and stuff it seems like it's all choreographed to techno and perfect, but in real life, it's mostly debugging and fixing errors.
+Run each file via `ruby`, fix the errors, and confirm with `learn` until your done and all the tests pass. Pay attention to the filenames in `lib` if you need hints for what kind of error to look for.
+
+Once your code is passing with the `learn` command, add, commit, push, and open a pull request to submit.
+
+Feel proud, being able to read an error message and fix it, no matter how basic, is a huge step in being a programmer. Get comfortable with broken, it's totally normal in code.
 
 <iframe src="https://vine.co/v/hPXTA6l9AqQ/embed/simple" width="600" height="600" frameborder="0"></iframe><script src="https://platform.vine.co/static/scripts/embed.js"></script>
+
+## Summary
 
 Error messages have 3 parts:
 
