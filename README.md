@@ -38,19 +38,17 @@ Error messages have 3 parts:
 lib/a_name_error.rb:3:in `<main>': undefined local variable or method `hello_world' for main:Object (NameError)
 ```
 
-The first part is the location of the error. The Where.
+1) The location of the error, the "where".
 
 ```
 lib/a_name_error.rb:3:in `<main>':
 ```
 
-`lib/a_name_error.rb` is the file the error occurred in.
+* `lib/a_name_error.rb` is the file the error occurred in.
+* `3` is the line of code the error.
+* `<main>` is the scope of the error.
 
-`3` is the line of code the error.
-
-`<main>` is the scope of the error.
-
-The next part of the error is the description. The Why.
+2) The description, the "why".
 
 ```
 undefined local variable or method `hello_world' for main:Object
@@ -58,7 +56,7 @@ undefined local variable or method `hello_world' for main:Object
 
 The interpreter does the best job it can to tell you what it thinks went wrong.
 
-Finally, the interpreter tells us the type of error. The Who.
+3) The type of error, the "who".
 
 ```
 (NameError)
@@ -66,7 +64,7 @@ Finally, the interpreter tells us the type of error. The Who.
 
 This is a [Ruby Error Type](http://www.ruby-doc.org/core-2.2.0/Exception.html)
 
-You've solved games of Clue with less information. This is my favorite part of programming, debugging, fixing errors. It's like you're a detective solving a crime. The only bad thing is that more often than not, you're also the criminal that caused the error in the first place.
+You've solved games of *Clue* with less information. This is my favorite part of programming, debugging, fixing errors. It's like you're a detective solving a crime. The only bad thing is that more often than not, you're also the criminal that caused the error in the first place.
 
 Errors are clues, reading them is the interpreter telling you what to do to fix the program and move on.
 
@@ -83,16 +81,16 @@ Did you watch it? Okay, great. Let's proceed.
 
 2. Run each of the files in the `lib` directory using the `ruby` command.
 
-* From the directory you cloned this lab, try: `ruby lib/a_division_by_zero_error.rb` to run that program. You should get output about an error in the program. Read the error message and open that file in Sublime and see if you can fix the error. When the error is fixed and you run the file via `ruby`, you'll simply see no output at all, no errors or anything. Confirm this by running the `learn` command and seeing that you have a passing test and 3 remaining failures.
+  * From the directory you cloned this lab, try: `ruby lib/a_division_by_zero_error.rb` to run that program. You should get output about an error in the program. Read the error message and open that file in Sublime and see if you can fix the error. When the error is fixed and you run the file via `ruby`, you'll simply see no output at all, no errors or anything. Confirm this by running the `learn` command and seeing that you have a passing test and 3 remaining failures.
 
-* Run each file via `ruby lib/<file name>`, fix the errors, and confirm with `learn` until your done and all the tests pass. Pay attention to the filenames in `lib` if you need hints for what kind of error to look for.
+  * Run each file via `ruby lib/<file name>`, fix the errors, and confirm with `learn` until your done and all the tests pass. Pay attention to the filenames in `lib` if you need hints for what kind of error to look for.
 
-3.Once your code is passing with the `learn` command, in your command line run:
+3. Once your code is passing with the `learn` command, in your command line run:
 
-* `git status`, to see all of the files you changed
-* `git add .`, to stage your changes
-* `git commit`
-* `git push` to push your changes up to your fork of this lab
-* Open a pull request, across forks, between your master branch and the master branch of the repo from which you forked it. 
+  * `git status`, to see all of the files you changed
+  * `git add .`, to stage your changes
+  * `git commit`
+  * `git push` to push your changes up to your fork of this lab
+  * Open a pull request, across forks, between your master branch and the master branch of the repo from which you forked it. 
 
-Feel proud, being able to read an error message and fix it, no matter how basic, is a huge step in being a programmer. Get comfortable with broken, it's totally normal in code.
+Feel proud, being able to read an error message and fix it, no matter how basic, is a huge step in being a programmer. Get comfortable with broken code, it's totally normal in programming.
