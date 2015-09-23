@@ -1,8 +1,8 @@
-# Introduction to Reading Ruby Error Messages
+# Intro to Reading Ruby Error Messages
 
-## Reading Error Messages from Tests
+## Overview
 
-This lab is designed so that both running the files *and* running the test suite via the `learn` command will show the error messages for you to decode. Moving forward though, you'll be reading error messages mainly through running the test suite. 
+In this lab, you'll be reading error messages from tests. This lab is designed so that both running the files *and* running the test suite via the `learn` command will show the error messages for you to decode. Moving forward though, you'll be reading error messages mainly through running the test suite. 
 
 ## Objectives
 
@@ -12,7 +12,7 @@ This lab is designed so that both running the files *and* running the test suite
 3. Use the `learn` command in terminal to run the tests for a lab.
 4. Submit a lab.  
 
-## Video Lecture
+## Video 
 
 [MP4](http://flatiron-videos.s3.amazonaws.com/ironboard/ruby/ruby-lecture-reading-error-messages/ruby-lecture-reading-error-messages.mp4)
 
