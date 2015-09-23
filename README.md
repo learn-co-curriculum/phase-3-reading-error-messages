@@ -7,10 +7,9 @@ In this lab, you'll be reading error messages from tests. This lab is designed s
 ## Objectives
 
 1. Read the three different parts of an errors message.
-2. Identify four error types- name errors, syntax errors, types errors, and division errors- and fix them:
+2. Identify four error types- name errors, syntax errors, types errors, and division errors- and fix them
 3. Describe a test suite, where it's found in a lab, and its purpose
 3. Use the `learn` command in terminal to run the tests for a lab.
-4. Submit a lab.  
 
 ## Video 
 
