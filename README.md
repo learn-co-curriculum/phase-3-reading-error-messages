@@ -79,7 +79,7 @@ Here, Ruby is saying that on line 2, there is a missing `end` (every `do` keywor
 
 ### TypeErrors
 
-When you try and do a mathematical operation on two objects of a different type, you will recieve a TypeError.  For example if you try and add a string to an integer, Ruby will complain.
+When you try and do a mathematical operation on two objects of a different type, you will receive a TypeError.  For example if you try and add a string to an integer, Ruby will complain.
 
 ```ruby
 1 + "1"
