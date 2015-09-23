@@ -93,7 +93,7 @@ TypeError: String can't be coerced into Fixnum
 ### DivisionErrors
 DivisionErrors are caused when a given number is divided by 0.
 
-### What is a Test Suite?
+## What is a Test Suite?
 
 The tests for each lab will be found inside the `spec` directory of that lab. Tests are programs, written using the Rspec testing library, that are written to make sure your program is running properly. Generally, tests will call on the methods you define in your programs and check to see if they are working the way they are expected to. 
 
