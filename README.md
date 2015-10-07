@@ -109,7 +109,7 @@ Did you watch it? Okay, great. Let's proceed. The point of this lab is to get yo
 
 2. Run each of the files in the `lib` directory using the `ruby` command.
 
-  * From the lab directory, try: `ruby lib/a_division_by_zero_error.rb` to run that program. You should get output about an error in the program. Read the error message and open that file in Sublime and see if you can fix the error. When the error is fixed and you run the file via `ruby`, you'll simply see no output at all, no errors or anything. Confirm this by running the `learn` command and seeing that you have a passing test and 3 remaining failures.
+  * From the lab directory, try: `ruby lib/a_division_by_zero_error.rb` to run that program. You should get output about an error in the program. Read the error message and open that file in your text editor and see if you can fix the error. When the error is fixed and you run the file via `ruby`, you'll simply see no output at all, no errors or anything. Confirm this by running the `learn` command and seeing that you have a passing test and 3 remaining failures.
 
   * Run each file via `ruby lib/<file name>`, fix the errors, and confirm with `learn` until you're done and all the tests pass. Pay attention to the filenames in `lib` if you need hints for what kind of error to look for.
 
