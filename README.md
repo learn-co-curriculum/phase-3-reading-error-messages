@@ -8,7 +8,7 @@ Get started by opening this lab with `learn open` so you can follow along with t
 
 ## Objectives
 
-1. Read the three different parts of an errors message.
+1. Read the three different parts of an error message.
 2. Identify four error types- name errors, syntax errors, types errors, and division errors- and fix them
 3. Describe a test suite, where it's found in a lab, and its purpose
 4. Use the `learn` command in terminal to run the tests for a lab.
