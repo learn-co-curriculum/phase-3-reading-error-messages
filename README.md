@@ -63,7 +63,7 @@ Errors are clues, reading them is the interpreter telling you what to do to fix 
 NameErrors are caused when a given name is invalid or undefined. Whenever the Ruby interpreter encounters a word it doesn't recognize, it assumes that word is the name of a variable or a method. If that word was never defined as either a variable or a method, it will result in a name error.
 
 ### Syntax Errors
-Syntax errors are pretty self explanatory: they're the result of incorrect syntax. Thankfully, they're usually followed by a guess about the location of the error. For instance:
+Syntax errors are pretty self-explanatory: they're the result of incorrect syntax. Thankfully, they're usually followed by a guess about the location of the error. For instance:
 
 ```ruby
 2.times do
