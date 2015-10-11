@@ -76,7 +76,7 @@ Will result in:
 ```
 Here, Ruby is saying that on line 2, there is a missing `end` (every `do` keyword must be followed by some code and then an `end` keyword). Always read the full details of syntax errors and look for line numbers, which usually appear at the beginning of the error message.
 
-### TypeErrors
+### Type Errors
 
 When you try and do a mathematical operation on two objects of a different type, you will receive a TypeError.  For example if you try and add a string to an integer, Ruby will complain.
 
@@ -89,7 +89,7 @@ Will produce the following error:
 TypeError: String can't be coerced into Fixnum
 ```
 
-### DivisionErrors
+### Division Errors
 DivisionErrors are caused when a given number is divided by 0.
 
 ## What is a Test Suite?
