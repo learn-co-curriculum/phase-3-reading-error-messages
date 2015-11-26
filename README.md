@@ -9,7 +9,7 @@ Get started by opening this lab with `learn open` (or by pressing the Open butto
 ## Objectives
 
 1. Read the three different parts of an error message.
-2. Identify four error types- name errors, syntax errors, types errors, and division errors- and fix them
+2. Identify four error types- name errors, syntax errors, type errors, and division errors- and fix them
 3. Describe a test suite, where it's found in a lab, and its purpose
 4. Use the `learn` command in terminal to run the tests for a lab.
 
@@ -51,7 +51,7 @@ The interpreter does the best job it can to tell you what it thinks went wrong.
 (NameError)
 ```
 
-This is a [Ruby Error Type](http://www.ruby-doc.org/core-2.2.0/Exception.html)
+This is a [Ruby Error Type](http://www.ruby-doc.org/core-2.2.0/Exception.html).
 
 You've solved games of *Clue* with less information. This is my favorite part of programming, debugging, fixing errors. It's like you're a detective solving a crime. The only bad thing is that more often than not, you're also the criminal that caused the error in the first place.
 
