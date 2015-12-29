@@ -34,7 +34,7 @@ lib/a_name_error.rb:3:in `<main>':
 ```
 
 * `lib/a_name_error.rb` is the file the error occurred in.
-* `3` is the line of code the error.
+* `3` is the line of code with the error.
 * `<main>` is the scope of the error.
 
 2) The description, the "why".
