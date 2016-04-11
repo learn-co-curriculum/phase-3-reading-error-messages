@@ -17,7 +17,7 @@ Get started by opening this lab with `learn open` (or by pressing the Open butto
 
 <iframe width="960" height="720" src="https://www.youtube.com/embed/L_eoziYKLXw?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 
-[Download MP4]([MP4](http://flatiron-videos.s3.amazonaws.com/ironboard/ruby/ruby-lecture-reading-error-messages/ruby-lecture-reading-error-messages.mp4))
+[Download MP4](http://flatiron-videos.s3.amazonaws.com/ironboard/ruby/ruby-lecture-reading-error-messages/ruby-lecture-reading-error-messages.mp4)
 
 ## Reading Error Messages
 
@@ -126,3 +126,5 @@ Did you watch it? Okay, great. Let's proceed. The point of this lab is to get yo
 Feel proud, being able to read an error message and fix it, no matter how basic, is a huge step in being a programmer. Get comfortable with broken code, it's totally normal in programming.
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/ruby-lecture-reading-error-messages' title='Intro to Reading Ruby Error Messages'>Intro to Reading Ruby Error Messages</a> on Learn.co and start learning to code for free.</p>
+
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/ruby-lecture-reading-error-messages'>Reading Error Messages</a> on Learn.co and start learning to code for free.</p>
