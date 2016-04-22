@@ -4,7 +4,7 @@
 
 In this lab, you'll be reading error messages from tests. This lab is designed so that both running the files *and* running the test suite via the `learn` command will show the error messages for you to decode. Moving forward though, you'll be reading error messages mainly through running the test suite.
 
-Get started by opening this lab with `learn open` (or by pressing the Open button on the toolbar) so you can follow along with the video and solve this lab.
+Get started by opening this lab with by pressing the Open button on the toolbar so you can follow along with the video and solve this lab.
 
 ## Objectives
 
@@ -105,7 +105,7 @@ STOP. If you haven't watched the above video, you are making life much harder fo
 
 Did you watch it? Okay, great. Let's proceed. The point of this lab is to get you comfortable reading error messages and fixing simple programs.
 
-1. Open this lab with `learn open`.
+1. Open this lab.
 
 2. Run `learn` from the root of the lab's directory. You should see a lot of red — this is okay! Tests have failed, and now we can fix them.
 
