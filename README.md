@@ -114,12 +114,8 @@ Did you watch it? Okay, great. Let's proceed. The point of this lab is to get yo
   * Each error prints out a **stack trace**, which points to where the code failed and attempts to follow it _up the stack_ — that is, through the bits of code that ran leading up to the failure. You can use these stack traces to pinpoint which line(s) of code need your attention.
 
   * These stack traces can also point you to which files you should run to get a better sense of the errors. Which leads us to step 3:
-
-3. Run each of the files in the `lib` directory.
-
-  * From the lab directory, try: `ruby lib/a_division_by_zero_error.rb` to run that program. You should get output about an error in the program. Read the error message and open that file in your text editor and see if you can fix the error. When the error is fixed and you run the file via `ruby`, you'll simply see no output at all, no errors or anything. Confirm this by running the `learn` command and seeing that you have a passing test and 3 remaining failures. For example, if you see a `ZeroDivisionError`, you'll have to figure out *where* Ruby is trying to divide by 0 and change the code so that the division operation is valid (i.e., something other than 0).
-
-  * Run each file via `ruby lib/<file name>`, fix the errors, and confirm with `learn`. Then follow the next error's stack trace back to the next failing file in `lib/` and repeat the fixing process until you're done and all the tests pass. Pay attention to the filenames in `lib` if you need hints for what kind of error to look for.
+  
+3. Fix the errors in each of the files in `lib/`. Then confirm the fix by running `learn` again.
 
 4. Once your code is passing with the `learn` command, submit the lab with `learn submit`
 
