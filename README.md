@@ -115,7 +115,7 @@ Did you watch it? Okay, great. Let's proceed. The point of this lab is to get yo
 
   * These stack traces can also point you to which files you should run to get a better sense of the errors. Which leads us to step 3:
 
-3. Run each of the files in the `lib` directory using the `ruby` command.
+3. Run each of the files in the `lib` directory.
 
   * From the lab directory, try: `ruby lib/a_division_by_zero_error.rb` to run that program. You should get output about an error in the program. Read the error message and open that file in your text editor and see if you can fix the error. When the error is fixed and you run the file via `ruby`, you'll simply see no output at all, no errors or anything. Confirm this by running the `learn` command and seeing that you have a passing test and 3 remaining failures. For example, if you see a `ZeroDivisionError`, you'll have to figure out *where* Ruby is trying to divide by 0 and change the code so that the division operation is valid (i.e., something other than 0).
 
