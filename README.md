@@ -134,7 +134,7 @@ Use the error messages to guide your work:
   failures are trying to tell you. What does the error mean? How can we fix it?
 
 - Each error prints out a **stack trace**, which points to where the code failed
-  and attempts to follow it _up the stack_ &mdash; that is, through the bits of
+  and attempts to follow it _up the stack_ — that is, through the bits of
   code that ran leading up to the failure. You can use these stack traces to
   pinpoint which line(s) of code need your attention.
 
