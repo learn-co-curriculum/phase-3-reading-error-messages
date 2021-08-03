@@ -70,7 +70,7 @@ Ruby interpreter encounters a word it doesn't recognize, it assumes that word is
 the name of a variable or a method. If that word was never defined as either a
 variable or a method, it will result in a name error. Try this out in IRB:
 
-```sh
+```txt
 $ irb
 2.7.3 :001 > a_variable
 NameError (undefined local variable or method `a_variable' for main:Object)
