@@ -17,8 +17,8 @@ you'll be reading error messages mainly through running the test suite.
 Let's start by running some of the Ruby code in the `lib` folder to produce an
 error message. Run this in your terminal:
 
-```sh
-ruby lib/a_name_error.rb
+```console
+$ ruby lib/a_name_error.rb
 ```
 
 Error messages have 3 parts:
@@ -70,8 +70,8 @@ Ruby interpreter encounters a word it doesn't recognize, it assumes that word is
 the name of a variable or a method. If that word was never defined as either a
 variable or a method, it will result in a name error. Try this out in IRB:
 
-```txt
-$ irb
+```console
+$  irb
 2.7.3 :001 > a_variable
 NameError (undefined local variable or method `a_variable' for main:Object)
 2.7.3 :002 > a_variable = 7
