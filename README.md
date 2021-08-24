@@ -105,6 +105,11 @@ keyword must be followed by some code and then an `end` keyword). Always read
 the full details of syntax errors and look for line numbers, which usually
 appear at the beginning of the error message.
 
+> **Note**: You won't be able to reproduce the above syntax error using IRB,
+> because IRB won't execute the code until you enter a matching `end` keyword
+> for the `do` block. You can see this error by creating a Ruby file, adding the
+> code above, and executing the file.
+
 ### Type Errors
 
 When you try and do a mathematical operation on two objects of a different type,
