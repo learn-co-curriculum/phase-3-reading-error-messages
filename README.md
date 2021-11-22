@@ -128,7 +128,7 @@ TypeError: String can't be coerced into Fixnum
 
 ### Division Errors
 
-A `DivisionError` is are caused when a given number is divided by 0.
+A `DivisionError` is caused when a given number is divided by 0.
 
 ## Instructions
 
