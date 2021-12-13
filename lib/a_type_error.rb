@@ -1,3 +1,3 @@
-1 + 1
+p [1 + 1]
 
-1 + "is the loneliest number"
+p [1 + 1]
