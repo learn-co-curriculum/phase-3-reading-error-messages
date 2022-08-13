@@ -1,3 +1,3 @@
-1 + 1
+print(1 + 1)
 
-1 + "is the loneliest number"
+print " is the loneliest number"
