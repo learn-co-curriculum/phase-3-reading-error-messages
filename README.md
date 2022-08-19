@@ -87,14 +87,15 @@ Trying to access `a_variable` before assigning it a value results in a
 
 Syntax errors are pretty self-explanatory: they're the result of incorrect
 syntax. Thankfully, they're usually followed by a guess about the location of
-the error. For instance:
+the error. For example, imagine we had included the following code inside some
+Ruby code:
 
 ```rb
 2.times do
   puts "hi"
 ```
 
-Will result in:
+Running our code would result in:
 
 ```txt
 2: syntax error, unexpected end-of-input, expecting keyword_end
