@@ -58,7 +58,7 @@ parts of programming: debugging and fixing errors. It's like you're a detective
 solving a crime. The only bad thing is that more often than not, you're also the
 criminal that caused the error in the first place.
 
-Errors are clues that interpreter is giving you. They point you toward how to
+Errors are clues that the interpreter is giving you. They point you toward how to
 fix the program and move on.
 
 ## Four Common Error Types
