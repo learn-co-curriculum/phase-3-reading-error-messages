@@ -58,7 +58,7 @@ parts of programming: debugging and fixing errors. It's like you're a detective
 solving a crime. The only bad thing is that more often than not, you're also the
 criminal that caused the error in the first place.
 
-Errors are clues, and reading them is the interpreter telling you what to do to
+Errors are clues that interpreter is giving you. They point you toward how to
 fix the program and move on.
 
 ## Four Common Error Types
@@ -124,7 +124,7 @@ integer, Ruby will complain.
 Will produce the following error:
 
 ```txt
-TypeError: String can't be coerced into Fixnum
+TypeError: String can't be coerced into Integer
 ```
 
 ### Division Errors
