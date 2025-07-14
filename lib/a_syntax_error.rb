@@ -1,3 +1,3 @@
-x = 1
-
-x = 
+1.times do 
+  puts "x = 1"
+end
